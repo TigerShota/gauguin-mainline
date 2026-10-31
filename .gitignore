@@ -1,0 +1,19 @@
+# 构建产物
+out/
+dl/
+ccache/
+*.img
+*.boot
+*.mbn
+*.elf
+
+# 内核/ROM 源码树（单独 fork 管理，不入本仓库）
+kernel/
+android/
+pmaports/
+
+# 密钥与本地配置
+*.key
+*.pem
+*.keystore
+.local/
